@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <nav class="parameters">
+            <label for="epochs">Epochs:</label>
+            <input type="number" id="epochs" value="500">
+            <button id="train">TRAIN</button>
+        </nav>
+        <div class="bruh">
+    <div class="header">
+        <h1>Neural Network Visualization</h1>
+        <p id="epoch">Epoch #</p>
+        
+    </div>
+    
+        <div id="nn">
+           
+            <!-- <div class="layer">
+                <div class="neuron"></div>
+                
+            </div>
+            
+            <div class="layer">
+                <div class="neuron"></div>
+                <div class="neuron"></div>
+                <div class="neuron"></div>
+            </div>
+            <div class="layer">
+                <div class="neuron"></div>
+          
+            </div> -->  
+        </div>
+        <div class="footer">
+            <p id="stats">loss: N/A</p>
+            <p id="predictions"></p>
+        </div>
+        <br>
+    </div>
+    </div>
+    <div id="neuron-hover">
+        <!-- <p>Weight: 6.23</p> -->
+    </div>
+    <script src="script.js" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</body>
+</html>
